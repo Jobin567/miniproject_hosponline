@@ -1,13 +1,14 @@
+
 import React from "react";
 import "./TeamSection.css"; // Add custom styles
-
+import { assets } from "../assets/assets";
 const doctors = [
   {
     name: "Nate Baston",
     specialization: "General Principal",
     phone: "010-020-0120",
     email: "general@company.com",
-    image: "src/assets/team-image1.jpg",
+    image: assets.team1,
     social: ["linkedin-square", "envelope-o"],
   },
   {
@@ -15,7 +16,7 @@ const doctors = [
     specialization: "Pregnancy",
     phone: "010-070-0170",
     email: "pregnancy@company.com",
-    image: "src/assets/team-image2.jpg",
+    image: assets.team2,
     social: ["facebook-square", "envelope-o", "flickr"],
   },
   {
@@ -23,7 +24,7 @@ const doctors = [
     specialization: "Cardiology",
     phone: "010-040-0140",
     email: "cardio@company.com",
-    image: "src/assets/team-image3.jpg",
+    image: assets.team3,
     social: ["twitter", "envelope-o"],
   },
 ];
