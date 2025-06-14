@@ -1,0 +1,7 @@
+.specialities-section .card {
+  transition: transform 0.3s ease;
+  border-radius: 12px;
+}
+.specialities-section .card:hover {
+  transform: translateY(-5px);
+}
