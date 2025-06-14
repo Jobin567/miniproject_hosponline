@@ -7,7 +7,7 @@ const doctors = [
     specialization: "General Principal",
     phone: "010-020-0120",
     email: "general@company.com",
-    image: "images/team-image1.jpg",
+    image: "src/assets/team-image1.jpg",
     social: ["linkedin-square", "envelope-o"],
   },
   {
@@ -15,7 +15,7 @@ const doctors = [
     specialization: "Pregnancy",
     phone: "010-070-0170",
     email: "pregnancy@company.com",
-    image: "images/team-image2.jpg",
+    image: "src/assets/team-image2.jpg",
     social: ["facebook-square", "envelope-o", "flickr"],
   },
   {
@@ -23,7 +23,7 @@ const doctors = [
     specialization: "Cardiology",
     phone: "010-040-0140",
     email: "cardio@company.com",
-    image: "images/team-image3.jpg",
+    image: "src/assets/team-image3.jpg",
     social: ["twitter", "envelope-o"],
   },
 ];
