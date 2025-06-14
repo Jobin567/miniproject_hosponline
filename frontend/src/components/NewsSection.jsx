@@ -8,7 +8,7 @@ const newsItems = [
     description: "Maecenas risus neque, placerat volutpat tempor ut, vehicula et felis.",
     author: "Jeremie Carlson",
     role: "CEO / Founder",
-    image: "images/news-image1.jpg",
+    image: "src/assets/news-image1.jpg",
     authorImage: "images/author-image.jpg",
     link: "news-detail.html",
   },
@@ -18,7 +18,7 @@ const newsItems = [
     description: "Fusce vel sem finibus, rhoncus massa non, aliquam velit. Nam et est ligula.",
     author: "Jason Stewart",
     role: "General Director",
-    image: "images/news-image2.jpg",
+    image: "src/assets/news-image2.jpg",
     authorImage: "images/author-image.jpg",
     link: "news-detail.html",
   },
@@ -28,7 +28,7 @@ const newsItems = [
     description: "Vivamus non nulla semper diam cursus maximus. Pellentesque dignissim.",
     author: "Andrio Abero",
     role: "Online Advertising",
-    image: "images/news-image3.jpg",
+    image: "src/assets/news-image3.jpg",
     authorImage: "images/author-image.jpg",
     link: "news-detail.html",
   },
@@ -66,3 +66,6 @@ const NewsSection = () => {
 };
 
 export default NewsSection;
+
+
+                   
