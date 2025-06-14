@@ -1,22 +1,23 @@
 import React from "react";
 import "./Features.css";
 
+
 const Features = () => {
   const boxes = [
     {
-      img: "images/lab.jpg",
+      img: "src/assets/lab.jpg",
       title: "Grab Your Lab Report",
       text: "Lab report can be get through online.",
       link: "/reports",
     },
     {
-      img: "images/medicine.jpg",
+      img: "src/assets/medicine.jpg",
       title: "Buy Medicine Online",
       text: "Medicine are available online.",
       link: "/medicine",
     },
     {
-      img: "images/appointment-image.jpg", // Replace with your image
+      img: "src/assets/appointment-image.jpg ", // Replace with your image
       title: "Book Appointment",
       text: "Easily schedule appointments online.",
       link: "/booking",
