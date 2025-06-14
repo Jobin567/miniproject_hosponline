@@ -1,43 +1,43 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./SpecialitiesSection.css";
-
+import { assets } from "../assets/assets";
 const specialities = [
   {
     title: "Oncology",
     description:
       "An oncologist is a doctor who treats cancer and provides medical care.",
-    image: "src/assets/oncology.jpg",
+    image: assets.oncology,
   },
   {
     title: "Cardiology",
     description:
       "A cardiologist is a specialist medical doctor who treats heart conditions.",
-    image: "src/assets/cardiology.png",
+    image: assets.cardiology,
   },
   {
     title: "Dermatology",
     description:
       "A dermatologist is a doctor who manages skin, hair, and cosmetic issues.",
-    image: "src/assets/dermatology.png",
+    image: assets.dermatology,
   },
   {
     title: "Neurology",
     description:
       "A neurologist is a physician who diagnoses and treats nervous system disorders.",
-    image: "src/assets/neurology.png",
+    image: assets.neurology,
   },
   {
     title: "Nephrology",
     description:
       "A nephrologist specializes in the care and treatment of kidney diseases.",
-    image: "src/assets/nephrology.png",
+    image: assets.nephrology,
   },
   {
     title: "Obstetrics & Gynecology",
     description:
       "Doctors in this field care for women during pregnancy and reproductive health.",
-    image: "src/assets/gynecology.png",
+    image: assets.gynecology,
   },
 ];
 
