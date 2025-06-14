@@ -7,37 +7,37 @@ const specialities = [
     title: "Oncology",
     description:
       "An oncologist is a doctor who treats cancer and provides medical care.",
-    image: "/images/oncology.jpg",
+    image: "src/assets/oncology.jpg",
   },
   {
     title: "Cardiology",
     description:
       "A cardiologist is a specialist medical doctor who treats heart conditions.",
-    image: "/images/cardiology.png",
+    image: "src/assets/cardiology.png",
   },
   {
     title: "Dermatology",
     description:
       "A dermatologist is a doctor who manages skin, hair, and cosmetic issues.",
-    image: "/images/dermatology.png",
+    image: "src/assets/dermatology.png",
   },
   {
     title: "Neurology",
     description:
       "A neurologist is a physician who diagnoses and treats nervous system disorders.",
-    image: "/images/neurology.png",
+    image: "src/assets/neurology.png",
   },
   {
     title: "Nephrology",
     description:
       "A nephrologist specializes in the care and treatment of kidney diseases.",
-    image: "/images/nephrology.png",
+    image: "src/assets/nephrology.png",
   },
   {
     title: "Obstetrics & Gynecology",
     description:
       "Doctors in this field care for women during pregnancy and reproductive health.",
-    image: "/images/gynecology.png",
+    image: "src/assets/gynecology.png",
   },
 ];
 
@@ -100,4 +100,6 @@ const SpecialitiesSection = () => {
 };
 
 export default SpecialitiesSection;
+
+
 
