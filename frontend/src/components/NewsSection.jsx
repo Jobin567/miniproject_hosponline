@@ -1,6 +1,7 @@
-import React from "react";
-import "./NewsSection.css"; // Make sure to create and import this CSS
 
+ import React from "react";
+import "./NewsSection.css"; // Make sure to create and import this CSS
+import { assets } from "../assets/assets";
 const newsItems = [
   {
     date: "March 08, 2018",
@@ -8,7 +9,7 @@ const newsItems = [
     description: "Maecenas risus neque, placerat volutpat tempor ut, vehicula et felis.",
     author: "Jeremie Carlson",
     role: "CEO / Founder",
-    image: "src/assets/news-image1.jpg",
+    image: assets.news1,
     authorImage: "images/author-image.jpg",
     link: "news-detail.html",
   },
@@ -18,7 +19,7 @@ const newsItems = [
     description: "Fusce vel sem finibus, rhoncus massa non, aliquam velit. Nam et est ligula.",
     author: "Jason Stewart",
     role: "General Director",
-    image: "src/assets/news-image2.jpg",
+    image: assets.news2,
     authorImage: "images/author-image.jpg",
     link: "news-detail.html",
   },
@@ -28,7 +29,7 @@ const newsItems = [
     description: "Vivamus non nulla semper diam cursus maximus. Pellentesque dignissim.",
     author: "Andrio Abero",
     role: "Online Advertising",
-    image: "src/assets/news-image3.jpg",
+    image: assets.news3,
     authorImage: "images/author-image.jpg",
     link: "news-detail.html",
   },
