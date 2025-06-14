@@ -1,23 +1,23 @@
 import React from "react";
 import "./Features.css";
-
+import { assets } from "../assets/assets";
 
 const Features = () => {
   const boxes = [
     {
-      img: "src/assets/lab.jpg",
+      img: assets.lab,
       title: "Grab Your Lab Report",
       text: "Lab report can be get through online.",
       link: "/reports",
     },
     {
-      img: "src/assets/medicine.jpg",
+      img: assets.medicine,
       title: "Buy Medicine Online",
       text: "Medicine are available online.",
       link: "/medicine",
     },
     {
-      img: "src/assets/appointment-image.jpg ", // Replace with your image
+      img: assets.appointment, // Replace with your image
       title: "Book Appointment",
       text: "Easily schedule appointments online.",
       link: "/booking",
@@ -56,5 +56,7 @@ const Features = () => {
 };
 
 export default Features;
+
+
 
 
